@@ -1,0 +1,37 @@
+.seryal-hafte{
+    background-image: url(../img/shameless.jpg);
+height: 600px;
+}
+.seryal-text{
+    background-color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,220%);
+    width: 70%;
+    height: 200px;
+    display: inline-block;
+    box-shadow: inset 1px 1px 10px 2px red;;
+}
+.seryal-text h4{
+color: white;
+margin-top: 10px;
+}
+.seryal-text p{
+color: white;
+font-size: 14px;
+padding: 10px;
+}
+.seryal-text a{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-right: 540px;
+    display: inline-block;
+    transition: .3s ease-in-out;
+}
+.seryal-text a:hover{
+    background-color: rgba(240, 240, 240, 0.945);
+    color: black;
+}

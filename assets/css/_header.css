@@ -1,0 +1,76 @@
+figure .img-headerr{
+    min-height: 90vh;
+   }
+   .tiree{
+       width: 100%;
+       background-color: rgba(60, 60, 65, 0.192);
+       min-height: 90vh;
+   }
+   .header-title{
+       color: white;
+       margin: 150px;
+       max-width: 400px;
+   }
+   .header-title a{
+       background-color:rgba(251, 251, 251, 0.562);
+       color: rgb(189, 46, 46);
+       float: left;
+       padding: 5px;
+       margin-left: 100px;
+       border-radius: 3px;
+       transition: .5s ease-in;
+   }
+   .header-title a:hover{
+transform: scale(1.1);
+color: rgb(138, 0, 0);
+   }
+   @media screen and (max-width:1200px){
+   .header-title{
+       margin: 0;
+       padding: 20px;
+       position: absolute;
+       top: 40%;
+       left: 65%;
+       transform: translate(-10%,-55%);
+       background-color: rgba(65, 64, 64, 0.335);
+       border-radius: 4px;
+   }
+   .tiree, figure .img-headerr{
+       min-height: 100%;
+   }
+   .header-title h1{
+       font-size: 20px;
+   }
+   .header-title h3{
+       font-size: 16px;
+   }
+   .header-title a{
+       font-size: 14px;
+   }
+   }
+   @media screen and (max-width:719px){
+       .header-title{
+           margin: 0;
+           position: absolute;
+           top: 40%;
+           left: 65%;
+           transform: translate(-10%,-55%);
+           background-color: rgba(65, 64, 64, 0.335);
+           border-radius: 4px;
+       }
+       .tiree, figure .img-headerr{
+           min-height: 100%;
+       }
+       .header-title h1{
+           font-size: 16px;
+       }
+       .header-title h3{
+           font-size: 14px;
+       }
+       .header-title a{
+           font-size: 11px;
+           width: 100px;
+           position: absolute;
+           float: left;
+       }
+       }

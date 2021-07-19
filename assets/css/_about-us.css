@@ -1,0 +1,54 @@
+.section-title1 span{
+    font-size: 30px;
+}
+.section-title1 span::before{
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color:  rgb(243, 14, 14);
+    position: absolute;
+    top: 23px;
+    right: -50px;
+}
+.section-title1 span::after{
+   content: "";
+   width: 40px;
+   height: 5px;
+   background-color:  rgb(243, 14, 14);
+   position: absolute;
+   top: 23px;
+   right: 240px;
+}
+.about-us-left-side{
+    background-color: brown;
+    border-radius: 5px;
+    min-height: 300px;
+    margin-top: 90px;
+}
+.about-us-left-side h4{
+    border-bottom: 2px solid black;
+padding: 20px;
+font-size: 25px;
+}
+.about-us-left-side p{
+padding: 20px;
+font-size: 21px;
+}
+.about-us-left-side a{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgb(189, 46, 46);
+    float: left;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 3px;
+    transition: .3s ease-in;
+}
+.about-us-left-side a:hover{
+    color: red;
+    background-color: black;
+    transform: scale(1.05);
+}
+.about-us-left-side h4::after{
+    content: "Green Book";
+    float: left;
+}

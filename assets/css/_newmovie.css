@@ -1,0 +1,6 @@
+.movie-new:hover img{
+    transform: scale(2);
+}
+.movie-new .card-header{
+    overflow: hidden;
+}

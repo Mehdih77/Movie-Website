@@ -1,0 +1,80 @@
+.section-title span{
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+.section-title span::before{
+     content: "";
+     width: 40px;
+     height: 5px;
+     background-color:  rgb(243, 14, 14);
+     position: absolute;
+     top: 15px;
+     right: -52px;
+ }
+ .section-title span::after{
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color:  rgb(243, 14, 14);
+    position: absolute;
+    top: 15px;
+    right: 190px;
+}
+.card-body .course-title{
+    top: 5px;
+    right: 85px;
+}
+.card-body .course-title p{
+font-size: 22px;
+color: white;
+}
+.card-body .course-title a{
+font-size: 17px;
+color: rgb(243, 14, 14);
+}
+.card-body{
+    width: 100%;
+}
+.greenbook{
+    height: 105px;
+}
+.blackmirror{
+    height: 81px;
+}
+.one-upon{
+    height: 105px;
+}
+.assassin{
+    height: 80px;
+}
+.joker{
+    height: 88px;
+}
+.interestellar{
+    height: 112px;
+}
+.card{
+    box-shadow: 1px 1px 10px red, -2px -2px black;
+}
+.course-bg{
+    background-image: url(../img/Untitled-2.jpg);
+    min-height: 1390px;
+    margin-top: -40px!important;
+}
+.img-tiree{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s linear;
+
+}
+.img-tiree:hover{
+    opacity: 0.4;
+}
+.card:hover{
+    transform: scale(1.02);
+}
